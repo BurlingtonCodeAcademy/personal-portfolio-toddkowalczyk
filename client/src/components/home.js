@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
       <div id="intro-container">
-        <p id="tagline">Hi.  I'm Todd, an IT professional with 35+ years of experience as a Project Manager and Software Developer.  I love using technology and software to make people happier!</p>
+        <p id="tagline">Hi.  I'm Todd, an IT professional with 35+ years of experience as a Developer and Project Manager.  I love using technology and software to make life better!</p>
       </div>
       <div id="image-container">
         <div>

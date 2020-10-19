@@ -7,15 +7,22 @@ function History() {
 
 		<div>
 			
+			<div id='header-container'>
 			<h1 id="resume-name">Todd Kowalczyk</h1>
+			<p id="contact-info">toddkowalczyk@gmail.com</p>
+			<p id="contact-info">1-802-353-0833</p>
+			</div>
+
+			<hr class='short-line'></hr>
 
 			<div class='resume-wrapper'>
 				<p>Skills:</p>
 				<ul class='skills'>
 					<li>Project Management Professional (PMP)</li>
 					<li>HTML, CSS, JavaScript</li>
-					<li>React, Vue</li>
+					<li>React, DOM</li>
 					<li>SQL, PLSQL</li>
+					<li>Agile Scrum, Iterative, Servant Leadership</li>
 				</ul>
 			</div>
 
@@ -46,7 +53,7 @@ function History() {
 					<p class='project-desc'>Served as the Program Manager for a $33 million dollar program to modernize Vermont's electric grid.  Project scope included the deployemnt of smart meters across Central Vermont Public Service's service territory, installation of additional SCADA stations around the state, and a pilot to test new automated closing and fault detection technology. </p>
 				</div>
 			</div>
-			
+
 			<a id='resume-pdf' href='./resources/todd-kowalczyk-resume.pdf' download='./resources/todd-kowalczyk-resume.pdf'>Download Full Resume</a>
 		</div>
 	)

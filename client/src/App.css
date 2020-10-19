@@ -50,13 +50,14 @@ li {
 /**********************/
 /* HOME PAGE Styles   */
 /**********************/
+
 #intro-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
   margin-top: 15vh;
   margin-left: 20vw;
-  width: 60vw;
+  width: 70vw;
   color: black;
 }
 
@@ -95,14 +96,13 @@ li {
 #about-intro {
   margin-top: 5vw;
   margin-left: 30vw;
-  font-size: 20pt;
+  font-size: 24pt;
   font: 'Raleway'
 }
 
 .who-items {
   font-size: 20pt;
   margin-left: 30vw;
-  font-family: 'Raleway', sans-serif;
   font: 'Raleway'
 }
 
@@ -168,9 +168,21 @@ li {
 /* WORK HISTORY page styles */
 /****************************/
 
+
 #resume-name {
   margin-left: 20vw;
   margin-top: 5vw;
+}
+
+#contact-info {
+  margin-left: 20vw;
+  font-size: 14pt;
+  line-height: 30%;
+}
+
+.short-line {
+  width: 40vw;
+  margin-left: 20vw;
 }
 
 .resume-wrapper {
@@ -184,20 +196,15 @@ li {
 }
 
 .project-date {
-  width: 30vw;
-  grid-column-start: 1;
-  grid-row-start: 1;
+  width: 25vw;
 }
 
 .project-name {
   width: 30vw;
-  grid-column-start: 1;
-  grid-row-start: 1;
 }
 
 .project-desc {
-  width: 50vw;
-  grid-column-start: 2;
+  width: 40vw;
 }
 
 #resume-pdf {
