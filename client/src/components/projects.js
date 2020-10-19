@@ -67,6 +67,7 @@ function Projects() {
 					<li>JavaScript</li>
 					<li>Objects</li>
 				</ul>
+				<p class='project-heading'>Code:</p>
 				<a class='github-link' href={projects[0].githubRepo}>GitHub Repo</a>
 			</div>
 
@@ -81,6 +82,7 @@ function Projects() {
 					<li>Arrays</li>
 					<li>Iterators</li>
 				</ul>
+				<p class='project-heading'>Code:</p>
 				<a class='github-link' href={projects[1].githubRepo}>GitHub Repo</a>
 			</div>
 
@@ -95,6 +97,7 @@ function Projects() {
 					<li>Event Handlers</li>
 					<li>Iterators</li>
 				</ul>
+				<p class='project-heading'>Code:</p>
 				<a class='github-link' href={projects[2].githubRepo}>GitHub Repo</a>
 			</div>
 

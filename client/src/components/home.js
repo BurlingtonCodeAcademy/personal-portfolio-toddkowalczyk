@@ -20,7 +20,7 @@ function Home() {
         </div>
         <div>
           <img class="home-image" src={pmp} alt="Project Management Professional" />
-          <p class="sub-desc">Experienced PM who know how to help teams get things done</p>
+          <p class="sub-desc">Experienced PM who know how to help teams get stuff done</p>
         </div>
       </div>
     </div >

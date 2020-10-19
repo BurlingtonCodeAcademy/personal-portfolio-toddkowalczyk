@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 
 body {
   background-color: white;
@@ -60,7 +61,6 @@ li {
 }
 
 #tagline {
-  font: arial;
   font-size: 20pt;
   font-weight: bolder;
 }
@@ -95,12 +95,15 @@ li {
 #about-intro {
   margin-top: 5vw;
   margin-left: 30vw;
-  font-size: 20pt
+  font-size: 20pt;
+  font: 'Raleway'
 }
 
 .who-items {
   font-size: 20pt;
   margin-left: 30vw;
+  font-family: 'Raleway', sans-serif;
+  font: 'Raleway'
 }
 
 #my-pic {
@@ -144,12 +147,13 @@ li {
 }
 
 .github-link {
-  width: 100vw;
+  width: 10vw;
   font-size: 16pt;
   background-color: white;
+  margin-top: 5vh;
 }
 
-/* Add a red background color to navbar links on hover */
+/* Add a  background color to github link on hover*/
 .github-link:hover {
   background-color: gray;
 }
@@ -168,7 +172,6 @@ li {
   margin-left: 20vw;
   margin-top: 5vw;
 }
-
 
 .resume-wrapper {
   display: flex;
@@ -199,12 +202,14 @@ li {
 
 #resume-pdf {
   border-color: black;
-  background-color: rgb(98, 98, 151);
-  color: white;
+  background-color:whitesmoke;
+  color: black;
   font-size: 18pt;
-  margin-top: 3vw;
-  margin-left: 20vw;
+  margin-left: 35vw;
   width: 30vw;
+}
+#resume-pdf:hover {
+  background-color:gray;
 }
 
 /****************************/

@@ -8,6 +8,7 @@ function History() {
 		<div>
 			
 			<h1 id="resume-name">Todd Kowalczyk</h1>
+
 			<div class='resume-wrapper'>
 				<p>Skills:</p>
 				<ul class='skills'>
@@ -17,6 +18,7 @@ function History() {
 					<li>SQL, PLSQL</li>
 				</ul>
 			</div>
+
 			<div class="resume-wrapper">
 				<div class="project">
 					<p class='project-date'>October 2018 - June 2020</p>
@@ -44,6 +46,7 @@ function History() {
 					<p class='project-desc'>Served as the Program Manager for a $33 million dollar program to modernize Vermont's electric grid.  Project scope included the deployemnt of smart meters across Central Vermont Public Service's service territory, installation of additional SCADA stations around the state, and a pilot to test new automated closing and fault detection technology. </p>
 				</div>
 			</div>
+			
 			<a id='resume-pdf' href='./resources/todd-kowalczyk-resume.pdf' download='./resources/todd-kowalczyk-resume.pdf'>Download Full Resume</a>
 		</div>
 	)
